@@ -15,8 +15,9 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
+    'react-app/jest',
   ],
-  plugins: ['@typescript-eslint/eslint-plugin', 'prettier'],
+  plugins: ['@typescript-eslint/eslint-plugin', 'cypress', 'prettier'],
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
