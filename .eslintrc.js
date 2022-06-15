@@ -15,6 +15,7 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
+    'plugin:cypress/recommended',
     'react-app/jest',
   ],
   plugins: ['@typescript-eslint/eslint-plugin', 'cypress', 'prettier'],
