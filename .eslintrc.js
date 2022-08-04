@@ -52,10 +52,11 @@ module.exports = {
         jsx: 'never',
       },
     ],
-
     'import/no-extraneous-dependencies': [
-      2,
-      { devDependencies: ['**/test.tsx', '**/test.ts'] },
+      'error',
+      {
+        devDependencies: true,
+      },
     ],
     '@typescript-eslint/indent': [2, 2],
     '@typescript-eslint/no-unused-vars': [
